@@ -1,0 +1,42 @@
+.screenshots{
+    &-content{
+        margin-top: 10rem;
+
+        &-item:not(:last-child){
+            margin-bottom: 16rem;
+        }
+
+        &-left{
+           img{
+                max-width: 100%;
+                height: auto;
+           }
+        }
+
+        &-right{
+            &-img{
+                margin-bottom: 3rem;
+            }
+
+            &-title{
+                margin-bottom: 2.5rem;
+                
+                h4{
+                    color: $blue;
+                    font-size: 36px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+            }
+
+            &-text{
+                p{
+                    color: $black;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 36px;
+                }
+            }
+        }
+    }
+}

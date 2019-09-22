@@ -1,0 +1,34 @@
+@media screen and (max-width: 991px){
+    div.header-left h1{
+        font-size: 54px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    div.top-nav-desktop{
+        display: none;
+    }
+
+    div.top-nav-mobile{
+        display: block;
+    }
+
+    div.header-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 691px){
+    div.footer-logo,
+    div.footer-links{
+        margin-bottom: 1rem;
+        // display: none;
+    }
+}
+
+@media screen and (max-width: 346px){
+    div.header-left h1{
+        font-size: 47px;
+        line-height: 45px;
+    }
+}

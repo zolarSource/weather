@@ -1,0 +1,100 @@
+.top-nav{
+    position: absolute;
+    top: 2.25rem;
+    left: 0;
+    right: 0;
+
+    z-index: 100;
+
+    &-logo{
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &-desktop{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-links{
+            ul{
+                display: flex;
+                justify-content: space-between;
+
+                li{
+                    a{
+                        transition: all 0.3s;
+                        color: $grey;
+
+                        &:hover{
+                            transition: all 0.3s;
+                            color: $orange;
+                        }
+                    }
+                }
+            }
+        }
+
+        &-social{
+            ul{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    &-mobile{
+        display: none;
+
+        &-menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;    
+
+            &-burger{
+                position: relative;
+                width: 25px;
+                height: 25px;
+                
+                span,
+                span:before,
+                span:after{
+                    height: 2px;
+                    background-color: #fff;
+                }   
+
+                span{
+                    width: 27px;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+
+                span:before,
+                span:after{
+                    content: '';
+                }
+
+                span:before{
+                    width: 17px;
+                    position: absolute;
+                    right: 0;
+                    transform: translateY(5px);
+                }
+
+                span:after{
+                    width: 7px;
+                    position: absolute;
+                    right: 0;
+                    transform: translateY(10px);
+                }
+            }
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "weatherApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "den",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-image": "^4.3.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-wait": "0.0.2",
+    "natives": "^1.1.6"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "debucsser": "^1.0.4",
+    "gulp-update": "0.0.2"
+  }
+}

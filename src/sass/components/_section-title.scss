@@ -1,0 +1,20 @@
+.section-title{
+    text-align: center;
+
+    h1{
+        margin: 0;
+
+        color: $section-title-color;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    p{
+        margin: 0!important;
+
+        color: $section-subtitle-color;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
